@@ -70,7 +70,6 @@ body {
 .reset,
 .equal {
   grid-column: span 2;
-  aspect-ratio: 2.25;
 }
 
 .reset,
