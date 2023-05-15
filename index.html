@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Odin Project: Calculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main id="calc">
+      <h1 id="calq-title">calq</h1>
+      <div id="calc-display">0.0</div>
+
+      <div id="calc-buttons-wrapper">
+        <!-- row 1 -->
+        <button class="calc-button digit" data-value="7">7</button>
+        <button class="calc-button digit" data-value="8">8</button>
+        <button class="calc-button digit" data-value="9">9</button>
+        <button class="calc-button operator delete" data-value="D">DEL</button>
+
+        <!-- row 2 -->
+        <button class="calc-button digit" data-value="4">4</button>
+        <button class="calc-button digit" data-value="5">5</button>
+        <button class="calc-button digit" data-value="6">6</button>
+        <button class="calc-button operator divide" data-value="/">/</button>
+
+        <!-- row 3 -->
+        <button class="calc-button digit" data-value="1">1</button>
+        <button class="calc-button digit" data-value="2">2</button>
+        <button class="calc-button digit" data-value="3">3</button>
+        <button class="calc-button operator multiply" data-value="*">*</button>
+
+        <!-- row 4 -->
+        <button class="calc-button digit" data-value="0">0</button>
+        <button class="calc-button digit" data-value=".">.</button>
+        <button class="calc-button operator add" data-value="+">+</button>
+        <button class="calc-button operator subtract" data-value="-">-</button>
+
+        <!-- row 5 -->
+        <button class="calc-button operator reset" data-value="R">RESET</button>
+        <button class="calc-button operator equal" data-value="=">=</button>
+      </div>
+    </main>
+  </body>
+</html>
